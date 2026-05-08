@@ -1,6 +1,7 @@
 pdfbot_env/
 venv/
 .venv/
+new_env/  
 __pycache__/
 *.pyc
 .env
