@@ -9,7 +9,8 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 # ------------------ LOAD PDF ------------------
 from langchain_community.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader("sample.pdf")
+# loader = PyPDFLoader("sample.pdf")
+loader = PyPDFLoader("Day18_PDF_Chatbot/sample.pdf")
 docs = loader.load()
 
 
