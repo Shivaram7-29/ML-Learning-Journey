@@ -17,3 +17,7 @@ A GenAI-powered PDF chatbot built using:
 pip install -r requirements.txt
 
 streamlit run app.py
+
+## Live Demo
+
+https://pdf-chatbot-genai.streamlit.app/
